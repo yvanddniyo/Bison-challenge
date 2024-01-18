@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+}
+
+.react-awesome-reveal-rotate > * {
+    animation-fill-mode: backwards ;
+  }
