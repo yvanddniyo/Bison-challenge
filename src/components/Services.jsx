@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal";
 import myPhoto from "../assets/images/myPhoto.jpg";
-import myPhoto1 from "../assets/images/myPhoto1.jpg";
+import myphoto1 from "../assets/images/myphoto1.jpg";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import rightPic from "../assets/images/rightPic.jpg";
 import rightPic1 from "../assets/images/rightPic1.jpg";
@@ -79,7 +79,7 @@ const Services = () => {
                   <div className="relative group">
                     <div className="w-full max-w-xs mx-auto overflow-hidden">
                       <img
-                        src={myPhoto1}
+                        src={myphoto1}
                         alt="my photo"
                         className="w-full h-auto hover:scale-110 transition-transform duration-1000 ease-in-out transform-gpu"
                       />

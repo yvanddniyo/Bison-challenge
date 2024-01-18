@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import { navBar } from "../Data/constants";
 import DragHandleIcon from "@mui/icons-material/DragHandle";
 import CloseIcon from "@mui/icons-material/Close";
 import SideNavbar from "./SideNavbar";
